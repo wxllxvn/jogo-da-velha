@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#placar{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#placar p{
+    margin-right: 10px;
+}
+
+.img-jogada{
+    max-width: 60px;
+}
+
+#tabuleiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#case-tabuleiro{
+    width: 246px;
+}
+
+.espaco{
+    width: 80px;
+    height: 80px;
+    border: black solid 2px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
